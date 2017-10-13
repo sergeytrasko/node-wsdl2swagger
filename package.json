@@ -1,0 +1,17 @@
+{
+  "name": "node-wsdl2swagger",
+  "version": "1.0.0",
+  "description": "Convert WSDL to Swagger JSON",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Sergey Trasko",
+  "license": "ISC",
+  "dependencies": {
+    "apiconnect-wsdl": "1.5.36",
+    "js-yaml": "3.10.0",
+    "yargs": "^9.0.1"
+  }
+}
